@@ -56,7 +56,7 @@ const ProjectCard = ({ project, index }) => {
           }`}
         >
           <a
-            href={project.link}
+            href={"/"}
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-lg bg-gradient-to-r from-[#30108099] to-[#7840AD5C] text-white shadow-md hover:opacity-80 transition"
