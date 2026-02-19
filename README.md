@@ -1,12 +1,51 @@
-# React + Vite
+# Free Portfolio Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive portfolio template built with **React** and **Tailwind CSS**. This template is designed to give everyone a free, high-quality starting point for their personal website.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these simple steps to get your portfolio up and running:
 
-## Expanding the ESLint configuration
+### 1. Download or Clone the Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You can download the code directly or clone it using Git:
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+```
+
+_(Note: Replace the URL above with the actual repository URL if you have forked it)_
+
+### 2. Install Dependencies
+
+Install the necessary packages using npm:
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+
+Start the local development server to see your portfolio in action:
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to `http://localhost:5173` (or the URL shown in your terminal).
+
+## ⭐ Support
+
+If you find this template helpful, please give it a **Star** on GitHub! It helps others discover this free resource.
+
+## 🛠️ Built With
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+Enjoy building your portfolio!
