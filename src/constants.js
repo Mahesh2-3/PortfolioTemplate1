@@ -23,7 +23,7 @@ export const hero = {
   quote: "Who judges a book by its cover...",
   currentlyWorking: "facebook",
   about:
-    "A self-taught UI/UX designer, functioning in the industry for 3+ years now.I make meaningful and delightful digital products that create an equilibrium between user needs and business goals.",
+    "A self-taught UI/UX designer, functioning in the industry for 3+ years now. I make meaningful and delightful digital products that create an equilibrium between user needs and business goals.",
 };
 
 export const works = [
@@ -108,7 +108,7 @@ export const projects = [
 ];
 
 export const ContactContent = {
-  line: "I'm currently looking to join a cross-functional team that values improving people's lives through accessible design. or have a project in mind? Let's connect.",
+  line: "I'm currently looking to join a cross-functional team that values improving people's lives through accessible design. Or have a project in mind? Let's connect.",
   email: "example@gmail.com",
   links: [
     {

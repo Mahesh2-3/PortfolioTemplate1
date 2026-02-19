@@ -1,10 +1,12 @@
 import React from "react";
 import { ContactContent } from "../constants";
-import { FiInstagram } from "react-icons/fi";
+import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 
 const Contact = () => {
-  const ReturnIcon = () => {
-    return <FiInstagram size={20} />;
+  const ReturnIcon = ({ name }) => {
+    if (name == "LinkedIn") return <FiLinkedin />;
+    else if (name == "Github") return <FiGithub />;
+    else return <FiInstagram />;
   };
   return (
     <div
@@ -21,7 +23,7 @@ const Contact = () => {
           {ContactContent.links.map((link, i) => (
             <li key={i} className="z-10">
               <a href={link.url} target="_blank" rel="noopener noreferrer">
-                <ReturnIcon />
+                <ReturnIcon name={link.name} />
               </a>
             </li>
           ))}
