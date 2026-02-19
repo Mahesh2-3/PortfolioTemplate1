@@ -11,11 +11,12 @@ Follow these simple steps to get your portfolio up and running:
 You can download the code directly or clone it using Git:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Mahesh2-3/PortfolioTemplate1.git
 ```
 
-_(Note: Replace the URL above with the actual repository URL if you have forked it)_
+```bash
+cd your-repo-name
+```
 
 ### 2. Install Dependencies
 
