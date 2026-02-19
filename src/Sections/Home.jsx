@@ -12,23 +12,23 @@ const Home = () => {
             <div className="relative flex items-center justify-center">
               <img
                 className="z-10 md:w-[234px] md:h-[234px] w-[170px] h-[170px]"
-                src="/Me.svg"
+                src={hero.images.profile}
                 alt="Profile"
               />
               <img
                 className="absolute z-0 scale-125"
-                src="/Gradient.svg"
+                src={hero.images.gradient}
                 alt="Gradient"
               />
             </div>
             <div className="absolute flex items-top justify-start -top-10 md:-right-64 -right-14 w-[350px]">
               <img
-                src="/Arrow.svg"
+                src={hero.images.arrow}
                 alt="arrow"
                 className="relative md:rotate-0 -rotate-90 -top-5"
               />
               <span className="flex gap-2 relative md:top-0 -top-10 md:left-0 -left-20">
-                Hello! I am{" "}
+                {hero.greeting}{" "}
                 <span className="text-primary font-heading text-xl font-semibold">
                   {hero.name}
                 </span>
@@ -43,7 +43,7 @@ const Home = () => {
       </div>
       <div id="about" className="lg:px-20 px-5">
         <div className="text-2xl">
-          I'm Currently working at{" "}
+          {hero.workingAtTitle}{" "}
           <span className="text-blue-600 font-bold">
             {hero.currentlyWorking}
           </span>

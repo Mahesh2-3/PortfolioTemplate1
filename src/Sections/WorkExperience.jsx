@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { skills, works } from "../constants";
+import { skillsContent, experiences } from "../constants";
 
 const WorkExperience = () => {
   const Card = ({ work }) => {
@@ -21,17 +21,19 @@ const WorkExperience = () => {
       className=" w-full font-popp px-5 py-5 pt-20 min-h-screen flex flex-col gap-10"
     >
       <h1 className="text-3xl font-bold mb-20 lg:px-20 font-heading">
-        WORK EXPERIENCE
+        {experiences.heading}
       </h1>
       <div className="flex items-center lg:px-20 px-0 mb-20 justify-center flex-wrap h-[50%] relative gap-10">
-        {works.map((work) => (
+        {experiences.works.map((work) => (
           <Card key={work.title} work={work} />
         ))}
         <img src="/Gradient.svg" className="absolute z-0 scale-125" alt="" />
       </div>
-      <h1 className="text-3xl font-bold mb-20 lg:px-20 font-heading">Skills</h1>
+      <h1 className="text-3xl font-bold mb-20 lg:px-20 font-heading">
+        {skillsContent.heading}
+      </h1>
       <div className="flex items-center mb-10 justify-center flex-wrap h-[50%] relative gap-18">
-        {skills.map((skill, index) => (
+        {skillsContent.skills.map((skill, index) => (
           <div key={index} className="flex flex-col gap-3 items-center">
             <img
               title={skill.name.toUpperCase()}
